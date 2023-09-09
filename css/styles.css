@@ -1,0 +1,84 @@
+:root {
+  --primary-text-color: #525c60;
+  --secondary-text-color: #274c5b;
+  --title-text-color: #7eb693;
+  --accent-color: #efd372;
+  --dark-accent-color: #f0c014;
+  --star-color: #ffa858;
+  --form-placeholder-text-color: #ababab;
+  --primary-bg-color: #f9f8f8;
+  --secondary-bg-color: #f1f1f1;
+  --primary-white-color: #fff;
+}
+
+/** Common  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/** Utils */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/** Section  */
+
+.section {
+  padding: 100px 0;
+}
+
+/** Section Title */
+
+.section-title {
+  color: var(--title-text-color);
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/** Homeworks */
+
+.homework-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.homework-list .item {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+
+    outline: 1px solid tomato;
+}
