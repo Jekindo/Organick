@@ -78,7 +78,7 @@ ul {
 }
 
 .homework-list .item {
-    flex-basis: calc((100% - 3 * 30px) / 4);
+  flex-basis: calc((100% - 3 * 30px) / 4);
 
-    outline: 1px solid tomato;
+  outline: 1px solid tomato;
 }
